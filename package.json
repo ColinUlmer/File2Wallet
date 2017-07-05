@@ -1,0 +1,27 @@
+{
+  "name": "filetowallet",
+  "version": "0.0.1",
+  "description": "Command-line tool for generating ethereum wallet private key and public address from any file of any type",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ColinUlmer/File2Wallet.git"
+  },
+  "author": "Colin Ulmer",
+  "license": "Apache-2.0",
+  "bin": {
+    "f2w": "./index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/ColinUlmer/File2Wallet/issues"
+  },
+  "homepage": "https://github.com/ColinUlmer/File2Wallet#readme",
+  "dependencies": {
+    "commander": "^2.11.0",
+    "ethereumjs-util": "^5.1.2",
+    "web3": "^0.19.1"
+  }
+}
