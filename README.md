@@ -1,5 +1,5 @@
 # File2Wallet
-Command-line tool for generating Ethereum wallet private key and public address from any file of any type
+Command-line tool for generating Ethereum wallet private key and public address from any file of any type<br>
 Requires: Node.js
 
 <h2>Install</h2>
